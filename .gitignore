@@ -42,3 +42,12 @@ bin/
 .DS_Store
 
 *.idea
+
+# 모든 .env 파일 무시
+*.env
+
+# 특정 환경 변수 파일도 함께 무시
+.env.*
+
+# mysql db mount folder
+/infra/db/

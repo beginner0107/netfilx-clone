@@ -3,8 +3,8 @@ rootProject.name = "netflix"
 include("netflix-apps:app-api")
 include("netflix-apps:app-batch")
 
-include("netflix-adapter:adapter-http")
-include("netflix-adapter:adapter-persistence")
+include("netflix-adapters:adapter-http")
+include("netflix-adapters:adapter-persistence")
 
 include("netflix-commons")
 
